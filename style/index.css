@@ -20,7 +20,7 @@ font-family: "Open Sans", sans-serif;
     width: 85%;
   max-width:13600px;
   align-items: center;      
-  margin: 0px auto;               /*make middle all nab bar*/
+  margin: 0px auto;               
   display: flex;
   justify-content: space-between;
   position:relative;
@@ -99,6 +99,20 @@ font-family: "Open Sans", sans-serif;
   background-image: url("/assets/hero-bg.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   margin-top: 16px;
+}
+#banner .banner-content h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+#banner .banner-content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
 }
